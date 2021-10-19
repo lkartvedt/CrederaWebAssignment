@@ -1,5 +1,5 @@
 # My Finished Product
-[Credera Website Snapshot](https://user-images.githubusercontent.com/22900759/137848865-62d80b0a-5494-4274-bb28-d8787411014b.PNG)
+![Credera Website Snapshot](/images/Credera Website Snapshot.PNG)
 
 
 # Getting started!
