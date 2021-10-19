@@ -1,0 +1,29 @@
+.page-heading-1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.page-heading-2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+} 
+
+.page-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.page-xs {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.page-micro {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;     
+}

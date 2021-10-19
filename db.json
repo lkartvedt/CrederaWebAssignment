@@ -1,0 +1,162 @@
+{
+  "profile": {
+    "id": "s9df8ske-23n23490s8-12nkk123o",
+    "firstName": "Ann",
+    "lastName": "Smith",
+    "avatarSrc": "https://i.imgur.com/ESVX1ma.jpg",
+    "jobTitle": "Content Artist",
+    "companyName": "ABC Advertising Co.",
+    
+    "pinnedPost": {
+      "authorFirstName": "Jamie",
+      "authorLastName": "Cowhan",
+      "authorAvatarSrc": "https://i.imgur.com/Z7iI4ex.jpg",
+      "jobTitle": "Senior Designer",
+      "companyName": "Facebook",
+      "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+      "publishDate": "2021-07-29T03:24:00",
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "pinnedPosts": [
+      {
+        "authorFirstName": "Jamie",
+        "authorLastName": "Cowhan",
+        "avatarSrc": "https://i.imgur.com/Z7iI4ex.jpg",
+        "jobTitle": "Senior Designer",
+        "companyName": "Facebook",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+        "publishDate": "2021-07-29T03:24:00",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "authorFirstName": "Stuart",
+        "authorLastName": "Raymond",
+        "avatarSrc": "https://i.imgur.com/X3lYZno.jpg",
+        "jobTitle": "Product Designer",
+        "companyName": "Facebook",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+        "publishDate": "2021-06-21T03:24:00",
+        "city": "Houston",
+        "state": "TX"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-a",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active",
+        "favorite": false
+      },
+      {
+        "id": "group-b",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "moderate",
+        "favorite": false
+      },
+      {
+        "id": "group-c",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "inactive",
+        "favorite": false
+      },
+      {
+        "id": "group-d",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "low",
+        "favorite": true
+      },
+      {
+        "id": "group-e",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "moderate",
+        "favorite": false
+      },
+      {
+        "id": "group-f",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active",
+        "favorite": false
+      },
+      {
+        "id": "group-g",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "low",
+        "favorite": true
+      },
+      {
+        "id": "group-h",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active",
+        "favorite": false
+      }
+    ]
+  },
+
+  "friends": [
+    {
+      "id": "s9df8ske-23n23490s8-12nkk123o",
+      "friends": [
+        {
+          "name": "Stuart Raymond",
+          "avatarSrc": "https://i.imgur.com/X3lYZno.jpg",
+          "jobTitle": "Product Designer",
+          "companyName": "Facebook",
+          "topFriend": true
+        },
+        {
+          "name": "Jamie Cowhan",
+          "avatarSrc": "https://i.imgur.com/Z7iI4ex.jpg",
+          "jobTitle": "Senior Designer",
+          "companyName": "Facebook"
+        },
+        {
+          "name": "Cain Kim",
+          "avatarSrc": "https://i.imgur.com/8WS1sl7.jpg",
+          "jobTitle": "Product Designer",
+          "companyName": "LinkedIn"
+        },
+        {
+          "name": "Tiffany Squires",
+          "avatarSrc": "https://i.imgur.com/p0LZuuH.jpg",
+          "jobTitle": "UX Designer",
+          "companyName": "Chip Consulting"
+        },
+        {
+          "name": "Paige Diaz",
+          "avatarSrc": "https://i.imgur.com/dhlZLRu.jpg",
+          "jobTitle": "Art Director",
+          "companyName": "Agency4",
+          "topFriend": true
+        },
+        {
+          "name": "Aleah Emmonds",
+          "avatarSrc": "https://i.imgur.com/kbZZSss.jpg",
+          "jobTitle": "Product Designer",
+          "companyName": "Liberty"
+        },
+        {
+          "name": "Huda Dunkley",
+          "avatarSrc": "https://i.imgur.com/sPdnebf.jpg",
+          "jobTitle": "Architect",
+          "companyName": "Epic"
+        },
+        {
+          "name": "Aden Gray",
+          "avatarSrc": "https://i.imgur.com/qly54HC.jpg",
+          "jobTitle": "Game Designer",
+          "companyName": "Voltron"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+#profile-friends {
+}
+
+.profile-friends-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile-list-item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.profile-list-item .top-friend-flag {
+  display: none;
+}
+
+.top-friend-flag {
+  color: var(--secondary);
+}
+
+.profile-list-item-avatar {
+  display: inline-block;
+  background-color: var(--grayscale_2);
+  border-radius: 50%;
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+}
+
+.friends-img-alt-text {
+  color:  var(--grayscale_0);
+  text-align: center;
+  font-size: 24px;
+}
+
+.profile-list-item-avatar img {
+  height: 100%;
+  width: 100%;
+}
+
+.profile-list-item-info {
+  width: 100%;
+  margin-left: 24px;
+}
+
+/* SKELETON LOADING */
+
+#profile-friends .skeleton-block {
+    margin-bottom: 4px;
+}

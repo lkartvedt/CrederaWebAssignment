@@ -1,0 +1,67 @@
+.profile-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-avatar {
+    position: absolute;
+    background-color: var(--grayscale_2);
+    border-radius: 50%;
+    overflow: hidden;
+    height: 176px;
+    width: 176px;
+    z-index: 999;
+}
+
+.profile-img-alt-text {
+  color:  var(--grayscale_0);
+  text-align: center;
+  font-size: 60px;
+}
+
+.profile-avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-info {
+    flex: 1;
+    padding-left: 100px;
+    position: relative;
+    max-width: calc(100% - 100px);
+    transform: translateX(100px);
+}
+
+.profile-info-name {
+    margin-bottom: 4px;
+}
+
+/* SKELTON LOADING */
+
+#profile-header .skeleton-block--half {
+    height: 42px;
+}
+
+@media only screen and (max-width: 425px) {
+    .profile-header {
+        flex-direction: column;
+    }
+
+    .profile-info {
+        position: relative;
+        max-width: calc(100%);
+        transform: translateY(100px);
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    #profile-header-job, #profile-header-name {
+        text-align: center;
+        transform: translateX(-35px);
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+}

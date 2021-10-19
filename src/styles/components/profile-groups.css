@@ -1,0 +1,87 @@
+#profile-groups {
+    margin-top: 32px;
+}
+
+.profile-group-results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 24px -10px;
+    flex-wrap: wrap;
+}
+
+.profile-group-results-item {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 175px;
+    padding: 0 10px 20px 10px;
+}
+
+.profile-group-results-item p,
+.profile-group-results-item a {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+div.profile-group-results-card {
+    position: relative;
+    overflow: hidden;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+.profile-group-results-card::after {
+   content: '';
+   width: 100%;
+   height: 16px;
+   background-color: var(--backgroundColor);
+   position: absolute;
+   top: 0;
+   left: 0;
+}   
+
+.profile-group-avatar {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 104px;
+    width: 104px;
+}
+
+.profile-group-avatar img {
+    height: 100%;
+    width: 100%;
+    background-color: var(--grayscale_2);
+}
+
+/* SKELETON LOADING  */
+#profile-groups .skeleton-block{
+    margin-top: 4px;
+}
+
+/*tablet-down*/
+/*@media only screen (min-width: 425px) and (max-width: 768px) { 
+    Instead of writing code here for tablets, I realized the larger issue is that allowing the group width to 
+    get down to 125px at all is ugly because it splits the text, even while the screen is larger than tablet size. 
+    It's not necessary to change the tablet mode responsize sizing when I can just set min-width to 175px and have it 
+    resize cleanly at all sizes instead.
+}*/
+
+/* Media query with a break point*/
+@media only screen and (max-width: 425px) {
+  .profile-group-results {
+    flex-direction: column;
+  }
+}

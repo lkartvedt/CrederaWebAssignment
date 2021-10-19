@@ -1,0 +1,43 @@
+.skeleton-block {
+  min-height: 20px;
+  width: 100%;
+}
+
+.skeleton-block--half {
+  min-height: 24px;
+  width: 50%;
+}
+
+.skeleton-block--quarter {
+  min-height: 24px;
+  width: 25%;
+}
+
+.loading {
+  background-color: var(--grayscale_2);
+  position: relative;
+  overflow: hidden;
+}
+
+.loading::after {
+  animation: loading 1.5s infinite;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-40%);
+  width: 100%;
+}
+
+@keyframes loading {
+  100% {
+    transform: translateX(100%);
+  }
+}

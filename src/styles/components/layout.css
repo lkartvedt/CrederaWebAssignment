@@ -1,0 +1,46 @@
+.container {
+  max-width: 1170px;
+  padding: 0px 16px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "main"
+    "friends";
+  grid-column-gap: 20px;
+  margin-top: -88px;
+}
+
+.content-grid-block--main {
+  grid-area: "main";
+}
+
+.content-grid-block--friends {
+  grid-area: "friends";
+}
+
+.content-card {
+  border: 1px solid var(--grayscale_2);
+  padding: 24px;
+  background-color: var(--grayscale_0);
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-grid {
+    grid-template-columns: 1fr 400px;
+    grid-template-areas: "main friends";
+    grid-column-gap: 20px;
+    margin-top: -88px;
+  }
+}

@@ -1,0 +1,54 @@
+#profile-posts {
+  margin-top: 50px;
+}
+
+.profile-post-results {
+  margin-top: 24px;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.post-author-avatar {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--grayscale_2);
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+}
+
+.post-author-img-alt-text {
+  color:  var(--grayscale_0);
+  text-align: center;
+  font-size: 24px;
+}
+
+.post-author-avatar img {
+  height: 100%;
+  width: 100%;
+}
+
+.post-author-info {
+  width: 100%;
+  margin-left: 24px;
+}
+
+.post-author-info > :first-child {
+  margin-bottom: 4px;
+}
+
+p.post-content {
+  margin-bottom: 16px;
+}
+
+/* SKELETON LOADING */
+.post-content.skeleton-block {
+  height: 125px;
+  margin-bottom: 8px;
+}

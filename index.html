@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <nav class="profile-navbar">
+      <section role="menubar" class="profile-navbar-container container">
+        <a role="menuitem" href="#">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 1.9C9.16 1.9 10.1 2.84 10.1 4C10.1 5.16 9.16 6.1 8 6.1C6.84 6.1 5.9 5.16 5.9 4C5.9 2.84 6.84 1.9 8 1.9ZM8 10.9C10.97 10.9 14.1 12.36 14.1 13V14.1H1.9V13C1.9 12.36 5.03 10.9 8 10.9ZM8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0ZM8 9C5.33 9 0 10.34 0 13V16H16V13C16 10.34 10.67 9 8 9Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </section>
+    </nav>
+    <section class="profile-background-banner"></section>
+    <div class="content-grid container">
+      <div class="content-grid-block--main">
+        <section id="profile-header">
+          <div class="profile-header">
+            <div class="profile-avatar">
+              <p class="profile-img-alt-text"></p>
+              <img class="loading" src=''/>
+            </div>
+            <div class="profile-info content-card">
+              <h1
+                id="profile-header-name"
+                class="
+                  profile-info-name
+                  skeleton-block skeleton-block--half
+                  loading
+                "
+              ></h1>
+              <p
+                id="profile-header-job"
+                class="
+                  page-paragraph
+                  skeleton-block skeleton-block--quarter
+                  loading
+                "
+              ></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="profile-posts">
+          <h2 class="page-heading-2">Your pinned posts</h2>
+          <div class="profile-post-results">
+            <div class="content-card fade-in">
+              <div class="post-author">
+                <div class="post-author-avatar loading"></div>
+                <div class="post-author-info">
+                  <div
+                    class="skeleton-block skeleton-block--half loading"
+                  ></div>
+                  <div
+                    class="skeleton-block skeleton-block--quarter loading"
+                  ></div>
+                </div>
+              </div>
+              <div class="post-content skeleton-block loading"></div>
+              <div class="skeleton-block skeleton-block--quarter loading"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="profile-groups">
+          <h2 class="page-heading-2">Your Groups</h2>
+          <ul class="profile-group-results fade-in">
+            <li class="profile-group-results-item">
+              <div class="profile-group-results-card content-card">
+                <div class="post-author-avatar loading"></div>
+                <div class="skeleton-block loading"></div>
+                <div class="skeleton-block loading"></div>
+              </div>
+            </li>
+            <li class="profile-group-results-item">
+              <div class="profile-group-results-card content-card">
+                <div class="post-author-avatar loading"></div>
+                <div class="skeleton-block loading"></div>
+                <div class="skeleton-block loading"></div>
+              </div>
+            </li>
+            <li class="profile-group-results-item">
+              <div class="profile-group-results-card content-card">
+                <div class="post-author-avatar loading"></div>
+                <div class="skeleton-block loading"></div>
+                <div class="skeleton-block loading"></div>
+              </div>
+            </li>
+            <li class="profile-group-results-item">
+              <div class="profile-group-results-card content-card">
+                <div class="post-author-avatar loading"></div>
+                <div class="skeleton-block loading"></div>
+                <div class="skeleton-block loading"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="content-grid-block--friends">
+        <section id="profile-friends">
+          <div class="content-card fade-in">
+            <h2 class="page-heading-2">Your Friends</h2>
+            <ul class="profile-friends-list">
+              <li class="profile-list-item">
+                <div class="profile-list-item-avatar loading"></div>
+                <div class="profile-list-item-info">
+                  <div
+                    class="skeleton-block skeleton-block--half loading"
+                  ></div>
+                  <div class="skeleton-block--quarter loading"></div>
+                </div>
+              </li>
+              <li class="profile-list-item">
+                <div class="profile-list-item-avatar loading"></div>
+                <div class="profile-list-item-info">
+                  <div
+                    class="skeleton-block skeleton-block--half loading"
+                  ></div>
+                  <div class="skeleton-block--quarter loading"></div>
+                </div>
+              </li>
+              <li class="profile-list-item">
+                <div class="profile-list-item-avatar loading"></div>
+                <div class="profile-list-item-info">
+                  <div
+                    class="skeleton-block skeleton-block--half loading"
+                  ></div>
+                  <div class="skeleton-block--quarter loading"></div>
+                </div>
+              </li>
+              <li class="profile-list-item">
+                <div class="profile-list-item-avatar loading"></div>
+                <div class="profile-list-item-info">
+                  <div
+                    class="skeleton-block skeleton-block--half loading"
+                  ></div>
+                  <div class="skeleton-block--quarter loading"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="profile-footer"></footer>
+  </body>
+  <!-- Template | Used to generate group cards -->
+  <template id="profile-group-results-item-template">
+    <li class="profile-group-results-item">
+      <div class="profile-group-results-card content-card fade-in">
+        <div class="profile-group-avatar">
+          <img />
+        </div>
+        <p class="page-paragraph">Group Name</p>
+        <a class="page-paragraph">View Group</a>
+      </div>
+    </li>
+  </template>
+
+  <!-- Template | Used to generate friends -->
+  <template id="friend-list-item-template">
+    <li class="profile-list-item fade-in">
+      <div class="profile-list-item-avatar">
+        <p class="friends-img-alt-text"></p>
+      </div>
+      <div class="profile-list-item-info">
+        <p class="top-friend-flag page-xs">Top Friend</p>
+        <p class="page-paragraph">Jamie Cowhan</p>
+        <p class="page-micro">Senior Designer @ Facebook</p>
+      </div>
+    </li>
+  </template>
+
+  <!-- Template | Used to generate pinned posts -->
+  <template id="profile-post-item-template">
+    <div class="content-card">
+      <div class="post-author fade-in">
+        <div class="post-author-avatar fade-in">
+          <p class="post-author-img-alt-text"></p>
+        </div>
+        <div class="post-author-info fade-in">
+          <p class="page-paragraph">Jamie Cowhan</p>
+          <p class="page-micro">Senior Designer @ Facebook</p>
+        </div>
+      </div>
+      <p class="page-paragraph post-content fade-in">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor
+        est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare
+        tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem
+        hendrerit.
+      </p>
+      <p class="page-relevance page-xs">July 29, 2021 | Dallas, TX</p>
+    </div>
+  </template>
+</html>

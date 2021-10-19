@@ -1,0 +1,11 @@
+:root {
+  --darkNavy: #3C455B;
+  --primary: #58B1C9;
+  --secondary: #52C1AD;
+  --warning: #C152A2;
+
+  --grayscale_0: #ffffff;
+  --grayscale_1: #E5E5E5;
+  --grayscale_2: #C4C4C4;
+  --backgroundColor: var(--grayscale_2);
+}
