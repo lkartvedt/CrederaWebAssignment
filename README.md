@@ -1,5 +1,5 @@
 # My Finished Product
-![Credera Website Snapshot](/images/Credera Website Snapshot.PNG)
+![Credera Website Snapshot](/images/Credera%20Website%20Snapshot.PNG)
 
 
 # Getting started!
